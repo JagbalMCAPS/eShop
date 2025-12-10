@@ -28,3 +28,10 @@ tasks:
     parameters:
       repositoryUrl: "https://github.com/JagbalMCAPS/eShop.git"
       directory: Z:\Workspaces
+
+  - name: winget
+    description: Install Visual Studio Community
+    parameters:
+      package:  Microsoft.VisualStudio.Community
+      arguments: --quiet --add Microsoft.VisualStudio.Workload.CoreEditor
+
