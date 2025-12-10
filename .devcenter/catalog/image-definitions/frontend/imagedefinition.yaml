@@ -32,6 +32,5 @@ tasks:
   - name: winget
     description: Install Visual Studio Community
     parameters:
-      package:  Microsoft.VisualStudio.Community
-      arguments: --quiet --add Microsoft.VisualStudio.Workload.CoreEditor
-
+      package:  Microsoft.VisualStudio.2022.Community
+      override: "--quiet --add Microsoft.VisualStudio.Workload.CoreEditor"
