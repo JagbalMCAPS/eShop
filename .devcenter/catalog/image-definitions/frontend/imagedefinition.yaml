@@ -24,8 +24,7 @@ tasks:
         $env:Path = [System.Environment]::GetEnvironmentVariable('Path','Machine') + ';' + [System.Environment]::GetEnvironmentVariable('Path','User') 
 
   - name: git-clone
-    description: Clone this repository into C:\Workspaces
+    description: Clone this repository into Z:\Workspaces
     parameters:
-      repositoryUrl: "https://dev.azure.com/jagbalMCAPS/JagsProj/_git/JagsProj"
-      directory: C:\Workspaces
-      pat: "2k0ErQnjAnN79Rt3tn8pZMI0z7OP7fKDIut3cbW3ZWKQFG947CuJJQQJ99BLACAAAAAw4GfjAAASAZDO2Xfw"
+      repositoryUrl: "https://github.com/JagbalMCAPS/eShop.git"
+      directory: Z:\Workspaces
