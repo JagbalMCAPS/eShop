@@ -33,5 +33,5 @@ tasks:
     description: Install Visual Studio Community
     parameters:
       package:  Microsoft.VisualStudio.Community
-      override: "--quiet --add Microsoft.VisualStudio.Workload.CoreEditor"
+
 
